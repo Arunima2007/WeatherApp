@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #31255a;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.super-container{
+    margin-left: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    width: 80vh;
+}
+.app-container{
+    margin: 5rem;
+    min-height: 80vh;
+    width: 60vh;
+    background-color: #75b4e3;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+}
+.select-container{
+    margin-top: 2.5rem;
+    background-color: #54416d;
+    height: 3rem;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+
+}
+.select-container input{
+    margin: 0.5rem;
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    outline: none;
+    background-color:#54416d;
+    color: #8fe0ff;
+    border: 1px solid white;
+
+}
+.search-btn{
+    margin: 0.5rem;
+    width: 2.5rem;
+    height: 2rem;
+    background-color:#54416d;
+    border: none;
+    border: 1px solid white;
+}
+
+
+.output-container{
+    height: 60vh;
+    width: 40vw;
+    background-color: linear-gradient(to bottom, #d1eaff 0%,#a4cff0 50%,#78b5e1 100%);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    margin: 2rem;
+}
+.output-container h2{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.size{
+    max-width: 14rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.humidity img{
+    max-width: 1.7rem;
+}
+.weather-container{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.wind-speed{
+    font-size: 1.7rem;
+}
+.humidity{
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.wind-speed{
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.temp-container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.hide{
+    display: none;
+}
+

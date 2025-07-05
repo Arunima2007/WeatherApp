@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 3rem; color:#8fe0ff; margin-right: 3rem;">Weather-App</h1>
+    <div class="super-container">
+        <div class="app-container">
+            <div class="select-container">
+                <i class="fa-solid fa-location-dot" style="color: #8fe0ff;"></i>
+                <input type="text" placeholder="Enter Location" id="text1">
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #8fe0ff;"></i>
+                </button>
+            </div>
+            <div class="output-container hide">
+                <h2></h2>
+                <img class="size">
+                <div class="temp-container">
+                    <p></p>
+                </div>
+                <div class="countryname"></div>
+                <div class="weather-container">
+                    <div class="humidity">
+                        <img src="images_humidity-removebg-preview.png">
+                        <p></p>
+                    </div>
+                    <div class="wind-speed">
+                        <i class="fa-solid fa-wind" style="font-size: 1.5rem;"></i>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
