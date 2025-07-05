@@ -13,7 +13,7 @@ btn.addEventListener("click",async()=>{
     outputdiv.classList.remove("hide");
     document.querySelector(".humidity p").innerText=data.main.humidity+"%"+"\n"+"Humidity";
     document.querySelector(".wind-speed p").innerText=data.wind.speed+"Km/hr"+"\n"+"Wind Speed";
-    let temp=data.main.temp-273;
+    let temp=Math.floor(data.main.temp-273);
     document.querySelector(".temp-container p").innerText=temp+"℃";
     let weatherConditions=data.weather[0].main;
     let img=outputdiv.querySelector("img");
